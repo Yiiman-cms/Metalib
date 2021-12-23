@@ -1,8 +1,8 @@
 {
   "name": "yiiman/yii-lib-metalib",
   "description": "meta library for store your data in table like options,objects,strings and etc, that can related to another models",
-  "type": "library",
-  "license": "Apache-2.0",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
   "autoload": {
     "psr-4": {
       "YiiMan\\YiiLibMeta\\": "src/"
@@ -19,5 +19,11 @@
   "require": {
     "ext-json": "*",
     "yiisoft/yii2": "~2"
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }
