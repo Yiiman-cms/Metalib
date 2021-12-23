@@ -2,7 +2,7 @@
   "name": "yiiman/yii-lib-metalib",
   "description": "meta library for store your data in table like options,objects,strings and etc, that can related to another models",
   "type": "library",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "autoload": {
     "psr-4": {
       "YiiMan\\YiiLibMeta\\": "src/"
