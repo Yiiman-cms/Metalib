@@ -16,7 +16,6 @@
     }
   ],
   "require": {
-    "ext-json": "*",
     "yiisoft/yii2": "*"
   },
   "repositories": [
