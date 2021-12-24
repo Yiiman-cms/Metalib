@@ -14,8 +14,6 @@
       "email": "info@yiiman.ir"
     }
   ],
-
-  "minimum-stability": "stable",
   "require": {
     "ext-json": "*",
     "yiisoft/yii2": "*"
