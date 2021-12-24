@@ -11,7 +11,8 @@
   "authors": [
     {
       "name": "YiiMan",
-      "email": "info@yiiman.ir"
+      "email": "info@yiiman.ir",
+      "homepage": "https://yiiman.ir"
     }
   ],
   "require": {
