@@ -44,11 +44,22 @@ class Module extends \yii\base\Module
 
         //$this->initI18N();
         $this->initModules();
-        //		$this->initMigrations();
+        $this->initMigrations();
         $this->registerTranslations();
-        // $this->initComponents();
+        $this->initComponents();
     }
 
+    public function initComponents()
+    {
+        $Option =
+            [
+                'MetaLib' => ['class' => 'YiiMan\YiiLibMeta\lib\MetaLib'],
+            ];
+
+
+        //Yii::$app->components['pdf']= $pdf;
+        Yii::$app->setComponents([$Option]);
+    }
 
     /**
      * TranslationTrait manages methods for all translations used in Krajee extensions
